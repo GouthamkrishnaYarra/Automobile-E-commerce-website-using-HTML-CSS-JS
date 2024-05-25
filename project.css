@@ -1,0 +1,313 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.navbar {
+    width: 100%;
+    height: 80px;
+    background-color: RED;
+}
+
+.banner-section {
+    width: 100%;
+    height: 300px;
+}
+
+.category-section {
+    width: 100%;
+    height: 150px;
+}
+
+.arrival-section {
+    width: 100%;
+    height: 150px;
+}
+
+.discount-section {
+    width: 100%;
+    height: 150px;
+margin-bottom:20px;
+}
+
+.category-section ul li {
+    list-style: none;
+    display: inline-flex;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    flex-direction: column;
+}
+
+.category-section ul {
+    position: relative;
+display: flex;
+flex-wrap: wrap;
+ justify-content: space-between; 
+}
+
+.category-section span {
+    position: absolute;
+    top: 120px;
+}
+
+.category-section ul li img {
+    width: 100%;
+}
+
+.arrival-section ul li {
+    list-style: none;
+    display: inline-flex;
+    width: 220px;
+    height: 220px;
+    margin: 25px;
+    margin-bottom: 50px;
+    flex-direction: column;
+}
+
+.arrival-section ul li span {
+    font-size: small;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.sub-section ul li:hover {
+    transform: scale(1.2);
+}
+
+.category-section li:hover {
+    transform: scale(1.2);
+}
+.cars li:hover {
+    transform: scale(1.2);
+}
+
+.sub-section ul li img {
+    width: 100%;
+    margin-left: 10px;
+}
+
+
+
+.banner-2 {
+    position: relative;
+    top: 450px;
+}
+
+.discount-section {
+    position: relative;
+    top: 450px;
+    padding-left: 20px;
+}
+
+.discount-section img {
+    width: 250px;
+    height: 250px;
+    margin: 5px;
+}
+.discount-section ul {
+    padding: 0;
+    margin: 0; 
+    display: inline-flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.discount-section ul li {
+    list-style: none;
+    display: inline-flex;
+    width: 220px;
+    height: 220px;
+    margin: 25px;
+    margin-bottom: 50px;
+    box-sizing:border-box;
+    justify-content: center;
+
+}
+.discount-section ul li img {
+    max-width: 100%; 
+    max-height: 100%;
+    object-fit: contain; 
+}
+.discount-section ul li:hover {
+    transform: scale(1.2);
+}
+.category-section img
+{
+max-width:100%;
+height:auto;
+}
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-content, .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+    align-items: center;
+}
+
+.footer-content div {
+    flex-basis: 33%;
+}
+
+.footer-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-content a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.category-section ul li {
+    flex-direction: column;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.company h2 {
+    margin-left: 20px;
+}
+
+.products ul li {
+    display: inline-flex;
+    list-style: none;
+    margin-right: 20px;
+}
+
+.product-detail {
+    display: flex;
+}
+
+.pro-left {
+    width: 100%;
+    max-width: 50%;
+    
+}
+
+.pro-left img {
+    width: 500px;
+    height: 350px;
+    padding-left: 50px;
+}
+
+.pro-right {
+    width: 100%;
+    max-width: 50%;
+  
+}
+
+.pro-right h4 {
+    padding: 20px;
+}
+
+.pro-right ul li {
+    list-style: none;
+    margin: 20px;
+}
+
+.pro-button {
+    width: 100%;
+}
+
+.addBtn,
+.buyBtn {
+    width: 10rem;
+    height: 3rem;
+    margin: 10px;
+}
+.cars ul li {
+    list-style: none;
+    display: inline-flex;
+    width: 300px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    flex-direction: column;
+}
+
+.cars ul {
+    position: relative;
+display: flex;
+flex-wrap: wrap;
+}
+
+.cars span {
+    position: absolute;
+    top: 300px;
+}
+
+.cars ul li img {
+    width: 100%;
+}
+.addBtn {
+    background-color: orangered;
+    color: white;
+}
+
+.buyBtn {
+    background-color: aquamarine;
+}
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    margin: 0px auto;
+    margin-top: 20px;
+    width: 100%; /* Ensure full width */
+}
+
+.footer-bottom {
+    background-color: #222;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    width: 100%; /* Ensure full width */
+}
+
+.footer h3 {
+    color: #fff; /* Header text color */
+}
+
+.footer p {
+    margin: 5px 0; /* Margin for paragraphs inside the footer */
+}
+
+.footer ul {
+    list-style-type: none; /* Remove bullets from the list */
+    padding: 0; /* Remove default padding */
+}
+
+.footer ul li {
+    margin-bottom: 10px; /* Spacing between list items */
+}
+
+.footer ul li a {
+    color: #fff; /* Link text color */
+    text-decoration: none; /* Remove underline from links */
+}
+.loginform {
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
